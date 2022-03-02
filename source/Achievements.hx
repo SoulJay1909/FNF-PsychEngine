@@ -30,12 +30,12 @@ typedef AchievementFile =
 class Achievements {
 	public static var achievementShits:Array<Dynamic> = [//Name, Description, Achievement save tag, Unlocks after, Hidden achievement
 		//Set unlock after to "null" if it doesnt unlock after a week!!
-		["Freaky on a Friday Night",	"Play on a Friday... Night.",						'friday_night_play',	 null, 			true],
-		["She Calls Me Daddy Too",		"Beat Week 1 on Hard with no Misses.",				'week1_nomiss',			'week1', 		false],
-		["No More Tricks",				"Beat Week 2 on Hard with no Misses.",				'week2_nomiss',         'week2', 		false],
-		["Call Me The Hitman",			"Beat Week 3 on Hard with no Misses.",				'week3_nomiss',			'week3', 		false],
-		["Lady Killer",					"Beat Week 4 on Hard with no Misses.",				'week4_nomiss',			'week4', 		false],
-		["Missless Christmas",			"Beat Week 5 on Hard with no Misses.",				'week5_nomiss',			'week5',		false],
+		["Freaky on a Friday Night",	        "Speel Friday Nigt Funkin.",						'friday_night_play',	 null, 			true],
+		["Jij zal ervoor dat betalen!",		"Win Noord-Mannen Op Niveau Hard Zonder Fouten.",				'week1_nomiss',			'week1', 		true],
+		["Ugh",				        "Win Scandinavie Op Niveau Hard Zonder Fouten.",				'week2_nomiss',         'week2', 		true],
+		["Dubbele nederlaag!!",			"Win Dubbele Problemen Op Niveau Hard Zonder Fouten.",				'week3_nomiss',			'week3', 		false],
+		["<!3%$#@&",			        "Win Glitch Op Niveau Hard Zonder Fouten.",				'week4_nomiss',			'week4', 		false],
+		["",			"Beat Week 5 on Hard with no Misses.",				'week5_nomiss',			'week5',		false],
 		["Highscore!!",					"Beat Week 6 on Hard with no Misses.",				'week6_nomiss',			'week6',		false],
 		["You'll Pay For That...",		"Beat Week 7 on Hard with no Misses.",				'week7_nomiss',			'week7',		true],
 		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",	'ur_bad',				null, 			false],
